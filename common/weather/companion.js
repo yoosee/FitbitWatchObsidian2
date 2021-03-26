@@ -33,7 +33,7 @@ const locationError = (error) => {
 }
 
 const fetchWeatherOpenweather = (lat, lon) => {
-  const APIKEY = '40ed40883f0964911396ea2c04020029';
+  const APIKEY = '';
   const ENDPOINT = 'https://api.openweathermap.org/data/2.5/weather?units=metric';
   let url = ENDPOINT + '&lat=' + lat + '&lon=' + lon + '&appid=' + APIKEY;
 //  console.log('Calling OpenWeather.org API: ' + url);  
