@@ -3,7 +3,7 @@
 }
 
 .fl {
-  fill: fb-white;
+  fill: white;
 }
 
 .fs {
@@ -11,7 +11,7 @@
 }
 
 .healthText {
-  fill: fb-lavender;
+  fill: lightsteelblue;
   font-size: 30;
   font-family: Colfax-Medium;
   text-anchor: start;
@@ -19,17 +19,17 @@
 }
 
 .weatherText {
-  fill: fb-lavender;
+  fill: lightsteelblue;
   font-size: 32;
   font-family: Colfax-Black;
 }
 
 .dateText {
-  fill: fb-white;
+  fill: white;
 }
 
 .hourhand {
-  fill: fb-red;
+  fill: red;
 }
 
 .minutehand {
@@ -38,12 +38,12 @@
 }
 
 .secondhand {
-  fill: fb-blue;
+  fill: blue;
 }
 
 .stats {
-  x: 5%;
-  y: 35%+66;
+  x: 12%;
+  y: 40%+66;
   width: 222;
   height: 48;
   text-anchor: middle;
@@ -54,7 +54,7 @@
 /*  font-family: SevilleSharp; */
   font-size: 30;
   text-length: 16;
-  fill: fb-lavender;
+  fill: lightsteelblue;
 }
 
 #iconHRM {
@@ -96,7 +96,7 @@
 .cycle-item image {
   x: 50%;
   y: 15;
-  fill: fb-lavender;
+  fill: lightsteelblue;
   width: 24;
   height: 24;
 }
